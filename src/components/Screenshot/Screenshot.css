@@ -1,0 +1,49 @@
+.screenshot-item img{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #6667ab;
+}
+
+.app-screenshots{
+    height: 100vh;
+}
+
+.section-title{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: center;
+}
+
+.section-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section-title span{
+   color: #6667ab;
+}
+
+.screenshots-carousel{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 760px){
+    .screenshots-carousel{
+        display: flex;
+        flex-direction: column;
+    }
+    .screenshot-item img{
+       
+        max-width: 280px;
+       
+    }
+}

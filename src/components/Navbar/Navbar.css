@@ -1,0 +1,67 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%)
+    brightness(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1500;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #6667ab;
+}
+.collapsed.navbar-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #6667ab;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up {
+  background-color: #6667ab;
+  padding: 10px;
+  width: 100px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}

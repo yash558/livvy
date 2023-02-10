@@ -1,0 +1,58 @@
+.hero { 
+  
+  height: 100vh;
+  
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero strong {
+  color: #6667ab;
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+
+.hero p {
+  color: #000;
+  font-size: 1.1rem;
+  padding: 0.3rem 0 1rem 0;
+}
+
+.hero_btn a {
+  background-color: #6667ab;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+@media (max-width: 770px) {
+  .hero {
+    height: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .hero video{
+    padding-top: 5rem;
+    width: 300px;
+  }
+  .hero h1{
+    font-size: 2rem;
+  }
+  .hero strong{
+    font-size: 2.5rem;
+  }
+}

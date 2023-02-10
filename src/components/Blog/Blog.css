@@ -1,0 +1,32 @@
+.blog h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blog p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.blog_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.blog span{
+    color: #6667AB;
+}
+.blog_part{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media screen and(max-width: 768px) {
+   .blog .container-fluid.mb-5 .row{
+        margin-left: 1px;
+        padding-left: 1rem;
+    }
+    
+}
